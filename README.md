@@ -1,5 +1,3 @@
-# ProjectOOAD
+# Connect4GUI
 
-ProjectOOAD Costa van Elsas, Walter Tesevic
-
-Trello: https://trello.com/b/CXzI30YJ/ooad-project-costa-walter
+This is a connect4 game made with Java(FX).
