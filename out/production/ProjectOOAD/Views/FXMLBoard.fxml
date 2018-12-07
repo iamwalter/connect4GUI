@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="ap" prefHeight="480.0" prefWidth="794.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.GameController">
+   <children>
+      <ImageView fx:id="boardImage" fitHeight="480.0" fitWidth="640.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/board.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="680.0" layoutY="441.0" mnemonicParsing="false" onAction="#onQuitAction" prefHeight="25.0" prefWidth="63.0" text="Quit" />
+      <Text fx:id="textPlayerWon" layoutX="646.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="playerWon" visible="false">
+         <font>
+            <Font size="24.0" />
+         </font></Text>
+      <Text fx:id="textGameOver" layoutX="656.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="aiWon" visible="false">
+         <font>
+            <Font size="24.0" />
+         </font></Text>
+      <Button fx:id="btnNewGame" layoutX="648.0" layoutY="369.0" mnemonicParsing="false" onAction="#onNewGameAction" prefHeight="39.0" prefWidth="131.0" text="New game" visible="false" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="568.0" prefWidth="945.0" style="-fx-background-color: #70747a;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.Main">
+   <children>
+      <Button fx:id="onePlayerBtn" layoutX="386.0" layoutY="245.0" mnemonicParsing="false" onAction="#onePlayerAction" prefHeight="38.0" prefWidth="174.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 8; -fx-cursor: pointer; -fx-border-color: 1px solid #dcdcdc;" text="Singleplayer">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <ImageView fitHeight="321.0" fitWidth="494.0" layoutX="226.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/header_logo.png" />
+         </image></ImageView>
+      <Button fx:id="twoPlayerBtn" layoutX="386.0" layoutY="317.0" mnemonicParsing="false" onAction="#twoPlayerAction" prefHeight="38.0" prefWidth="174.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 8; -fx-cursor: pointer; -fx-border-color: 1px solid #dcdcdc;" text="Multiplayer">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="howToBtn" layoutX="386.0" layoutY="460.0" mnemonicParsing="false" onAction="#howToAction" prefHeight="38.0" prefWidth="174.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 8; -fx-cursor: pointer; -fx-border-color: 1px solid #dcdcdc;" text="How to play?">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
